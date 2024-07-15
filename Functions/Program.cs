@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System.Runtime.CompilerServices;
+
+internal class Program
 {
     // todo: push to github
     private static void Main(string[] args)
@@ -12,6 +14,8 @@
         CalculateAverage(x);
         Console.WriteLine($"average = {CalculateAverage(x, true)}");
         */
+
+        ArrayFindings();
     }
 
     
@@ -36,5 +40,34 @@
             return 0;
         }
         
+    }
+
+    static void ArrayFindings()
+    {
+        Console.Write("Enter number of items: ");
+        int arraySize = int.Parse(Console.ReadLine()!);
+        int[] numbers = new int[arraySize];
+        for (int i = 0; i < arraySize; i++)
+        {
+            Console.Write($"enter item {i + 1} :");
+            numbers[i] = int.Parse(Console.ReadLine()!);
+        }
+        int sum = 0;
+        int smallestNumber = int.MaxValue;
+        int greatestNumber = int.MinValue;
+        foreach (var number in numbers)
+        {
+            sum += number;
+            if (number < smallestNumber){
+                smallestNumber = number;
+            }
+            if (number > greatestNumber){
+                greatestNumber = number;
+            }
+        }   
+        var average = sum / numbers.Length;
+        Console.WriteLine($"Average = {average}");
+        Console.WriteLine($"smallest number = {smallestNumber}");
+        Console.WriteLine($"greatest number = {greatestNumber}");
     }
 }

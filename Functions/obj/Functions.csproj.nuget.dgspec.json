@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmed\\OneDrive\\Desktop\\C#\\Functions\\Functions\\Functions.csproj": {}
+    "C:\\Users\\ahmed\\OneDrive\\Desktop\\cs\\Functions\\Functions\\Functions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmed\\OneDrive\\Desktop\\C#\\Functions\\Functions\\Functions.csproj": {
+    "C:\\Users\\ahmed\\OneDrive\\Desktop\\cs\\Functions\\Functions\\Functions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmed\\OneDrive\\Desktop\\C#\\Functions\\Functions\\Functions.csproj",
+        "projectUniqueName": "C:\\Users\\ahmed\\OneDrive\\Desktop\\cs\\Functions\\Functions\\Functions.csproj",
         "projectName": "Functions",
-        "projectPath": "C:\\Users\\ahmed\\OneDrive\\Desktop\\C#\\Functions\\Functions\\Functions.csproj",
+        "projectPath": "C:\\Users\\ahmed\\OneDrive\\Desktop\\cs\\Functions\\Functions\\Functions.csproj",
         "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmed\\OneDrive\\Desktop\\C#\\Functions\\Functions\\obj\\",
+        "outputPath": "C:\\Users\\ahmed\\OneDrive\\Desktop\\cs\\Functions\\Functions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config"
