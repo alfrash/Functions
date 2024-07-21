@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmed\\OneDrive\\Desktop\\cs\\Functions\\Functions\\Functions.csproj",
+      "projectUniqueName": "C:\\Users\\ahmed\\Desktop\\csharp\\Functions\\Functions\\Functions.csproj",
       "projectName": "Functions",
-      "projectPath": "C:\\Users\\ahmed\\OneDrive\\Desktop\\cs\\Functions\\Functions\\Functions.csproj",
+      "projectPath": "C:\\Users\\ahmed\\Desktop\\csharp\\Functions\\Functions\\Functions.csproj",
       "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmed\\OneDrive\\Desktop\\cs\\Functions\\Functions\\obj\\",
+      "outputPath": "C:\\Users\\ahmed\\Desktop\\csharp\\Functions\\Functions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config"

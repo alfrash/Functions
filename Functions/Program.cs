@@ -1,11 +1,12 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System.Reflection.Metadata;
+using System.Runtime.CompilerServices;
 
 internal class Program
 {
     // todo: push to github
     private static void Main(string[] args)
     {
-        /*
+        
         int [] numbers = [1, 2, 3, 4, 5, 6];
         Console.WriteLine($"average = {CalculateAverage(numbers)}");
         numbers = [10, 20, 30, 40, 50, 60];
@@ -13,9 +14,10 @@ internal class Program
         int[] x = [100, 200, 300, 400, 500, 600];
         CalculateAverage(x);
         Console.WriteLine($"average = {CalculateAverage(x, true)}");
-        */
+        
 
         ArrayFindings();
+        PalindromeWords ();
     }
 
     
@@ -69,5 +71,21 @@ internal class Program
         Console.WriteLine($"Average = {average}");
         Console.WriteLine($"smallest number = {smallestNumber}");
         Console.WriteLine($"greatest number = {greatestNumber}");
+    }
+
+    static void PalindromeWords ()
+    {
+        Console.Write("Enter word to check for Palindrome: ");
+        string word = Console.ReadLine()!.ToLower();
+        bool isPalindrome = true;
+        for (int i = 0; i <  word.Length / 2; i++)
+        {
+            if (word[i] != word[word.Length - i - 1])
+            {
+                isPalindrome = false;
+                break;
+            }
+        }
+        Console.WriteLine($"is palindrome = {isPalindrome}");
     }
 }
